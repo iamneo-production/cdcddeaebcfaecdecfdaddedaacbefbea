@@ -1,6 +1,6 @@
 read -p "enter two numbers " x y
 echo
-if [ $(($x+$y)) -gt "70" ]
+if (( $(($x+$y)) > "70" ));
 then
 echo "Pass"
 else
