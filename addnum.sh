@@ -1,6 +1,6 @@
 read -p "enter two numbers " x y
 echo
-if [[ "$[x+y]" > 70 ]];
+if [[ `$x &plus; $y` > "70" ]];
 then
 echo "Pass"
 else
